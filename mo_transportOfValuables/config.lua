@@ -16,11 +16,7 @@ Config.RequiredPolice = 3-------------------------		default: 3
 Config.WaitTime = 35------------------------------(sec)	default: 35
 Config.cooldown = 45------------------------------(min)	default: 45
 Config.HeistMoneyAccountType = 'black_money'------		default: 'black_money'
-Config.item = 'mo_thermitecharge'-----------------		default: 'mo_thermitecharge'
-
-Config.weaponLostPunishment = 750-----------------($)	default: 750
-Config.ammoCount = 6------------------------------		default: 6
-Config.weaponName = 'WEAPON_REVOLVER'-------------		default: 'WEAPON_REVOLVER' !!!CAPITAL LETTERS!!!
+Config.item = 'mo_thermitecharge'-----------------		default: 'mo_thermitecharge
 
 Config.startShift = {
 	coords = vector3(-197.39, -831.45, 30.75),
