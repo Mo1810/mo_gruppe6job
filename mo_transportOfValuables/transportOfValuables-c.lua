@@ -226,7 +226,6 @@ Citizen.CreateThread(function()
 	end
 	
 	while true do
-		print("sdsa")
 		if GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()), Config.startShift.coords, true) < 2.0 and not onShift and not hideText then
 			while GetDistanceBetweenCoords(GetEntityCoords(PlayerPedId()), Config.startShift.coords, true) < 2.0 and not hideText do
 				Draw3DText(Config.startShift.coords.x, Config.startShift.coords.y, Config.startShift.coords.z, 1.5, '~r~[E] ~s~| '.._U('startShift_text'))
