@@ -371,7 +371,7 @@ AddEventHandler('transportOfValuables:startShift', function()
 		SetPlayerCanDoDriveBy(PlayerId(), false)
 		while onShift do
 			Citizen.Wait(1000)
-			while not IsPedInAnyVehicle(PlayerPedId(), false) do
+			while not IsPedInAnyVehicle(PlayerPedId(), false) and onShift do
 				BeginTextCommandDisplayHelp("THREESTRINGS")
 				AddTextComponentSubstringPlayerName(_U('getInVehicleAgainHelp'))
 				AddTextComponentSubstringPlayerName('')
