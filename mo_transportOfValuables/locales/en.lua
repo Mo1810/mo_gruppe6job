@@ -10,7 +10,6 @@ Locales['en'] = {
 	['truckLabel'] = 'Transport of money and valuables',
 	['noVehiclesAvailable'] = '~r~Currently there are no vehicles. ~s~Come back later.',
 	['alarmPolice'] = 'A ~b~transport of money ~s~needs ~r~help~s~. It was marked on your ~b~Map~s~.',
-	['policeAlarmed'] = 'The ~b~police ~s~was ~r~alarmed~s~.',
 	['cancelCommandHelp'] = 'Cancel your shift.',
 	['robbedTruckLabel'] = 'Transport of money and valuables (Emergency)',
 	['pickupPosition'] = 'Next Target',

@@ -3,7 +3,7 @@
 --[[--------------------------]]--
 
 Config = {}
-Config.Locale = 'en'
+Config.Locale = 'de'
 Config.trigger_key = 46---------------------------(E)	default: 46
 Config.greySquare = false-------------------------		default: false
 Config.PedModel = 's_m_m_armoured_01'-------------		default: 's_m_m_armoured_01'
@@ -16,7 +16,7 @@ Config.RequiredPolice = 3-------------------------		default: 3
 Config.WaitTime = 35------------------------------(sec)	default: 35
 Config.cooldown = 45------------------------------(min)	default: 45
 Config.HeistMoneyAccountType = 'black_money'------		default: 'black_money'
-Config.item = 'mo_thermitecharge'-----------------		default: 'mo_thermitecharge
+Config.item = 'mo_thermitecharge'-----------------		default: 'mo_thermitecharge'
 
 Config.startShift = {
 	coords = vector3(-197.39, -831.45, 30.75),

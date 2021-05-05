@@ -10,7 +10,6 @@ Locales['de'] = {
 	['truckLabel'] = 'Geld- und Werttransporter',
 	['noVehiclesAvailable'] = '~r~Aktuell sind keine Fahrzeuge verfügbar. ~s~Komm später wieder.',
 	['alarmPolice'] = 'Ein ~b~Geldtransporter ~s~benötigt ~r~Hilfe~s~. Er wurde auf der ~b~Karte ~s~markiert.',
-	['policeAlarmed'] = 'Die ~b~Polizei ~s~wurde ~r~alarmiert~s~.',
 	['cancelCommandHelp'] = 'Bricht deine Schicht ab.',
 	['robbedTruckLabel'] = 'Geld- und Werttransporter (Notfall)',
 	['pickupPosition'] = 'Nächstes Ziel',
