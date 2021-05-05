@@ -10,6 +10,13 @@ TriggerEvent('esx:getSharedObject', function(obj)
 	end
 end)
 
+AddEventHandler('onResourceStart', function(resourceName)
+	if (GetCurrentResourceName() ~= resourceName) then
+		return
+	end
+	print('Script by Mo1810#4230 - https://discord.gg/Q25mtKms8c')
+end)
+
 Citizen.CreateThread(function()
 	MySQL.Async.fetchAll("UPDATE `gruppe6vehicles` SET `inGarage` = 1 WHERE `inGarage` = 0", {},function(result)end)
 	MySQL.Async.fetchAll("UPDATE `gruppe6vehicles` SET `currentMoneyInside` = 0 WHERE `currentMoneyInside` > 0", {},function(result)end)
