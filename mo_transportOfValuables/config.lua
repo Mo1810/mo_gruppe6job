@@ -3,7 +3,7 @@
 --[[--------------------------]]--
 
 Config = {}
-Config.Locale = 'de'
+Config.Locale = 'en'
 Config.trigger_key = 46---------------------------(E)	default: 46
 Config.greySquare = false-------------------------		default: false
 Config.PedModel = 's_m_m_armoured_01'-------------		default: 's_m_m_armoured_01'
